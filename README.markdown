@@ -1,6 +1,6 @@
 ##  Jumia Affiliate Data
 
-This projects provide an API entry point to Jumia Product data.
+This project provides an API entry point to Jumia Product data.
 This project was written in pure scala ( _SPRAY-AKKA_ ) with elasticsearch as the search engine and data store.
 
 * _Jetty_, Scala 2.11 + Akka 2.3 + spray 1.3 (the `on_jetty_1.3_scala-2.11` branch)
