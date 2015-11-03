@@ -1,26 +1,16 @@
-## _spray_ Template Project
+##  Jumia Affiliate Data
 
-This projects provides a starting point for your own _spray-routing_ endeavors.
-There are 8 branches, providing templates for _spray-routing_ on
+This projects provides an API entry point to Jumia Product data.
+This project was written in pure scala ( _SPRAY-AKKA_ ) with elasticsearch as the search engine and data store.
 
-* _spray-can_, Scala 2.9 + Akka 2.0 + spray 1.0 (the `on_spray-can_1.0` branch)
-* _spray-can_, Scala 2.10 + Akka 2.1 + spray 1.1 (the `on_spray-can_1.1` branch)
-* _spray-can_, Scala 2.10 + Akka 2.2 + spray 1.2 (the `on_spray-can_1.2` branch)
-* _spray-can_, Scala 2.10 + Akka 2.3 + spray 1.3 (the `on_spray-can_1.3` branch)
-* _spray-can_, Scala 2.11 + Akka 2.3 + spray 1.3 (the `on_spray-can_1.3_scala-2.11` branch)
-* _Jetty_, Scala 2.9 + Akka 2.0 + spray 1.0 (the `on_jetty_1.0` branch)
-* _Jetty_, Scala 2.10 + Akka 2.1 + spray 1.1 (the `on_jetty_1.1` branch)
-* _Jetty_, Scala 2.10 + Akka 2.2 + spray 1.2 (the `on_jetty_1.2` branch)
-* _Jetty_, Scala 2.10 + Akka 2.3 + spray 1.3 (the `on_jetty_1.3` branch)
 * _Jetty_, Scala 2.11 + Akka 2.3 + spray 1.3 (the `on_jetty_1.3_scala-2.11` branch)
 
-You are currently on the `on_spray-can_1.3_scala-2.11` branch.
 
 Follow these steps to get started:
 
 1. Git-clone this repository.
 
-        $ git clone git://github.com/spray/spray-template.git my-project
+        $ git clone git://github.com/OElesin/jumiadataapi.git my-project
 
 2. Change directory into your clone:
 
@@ -43,7 +33,5 @@ Follow these steps to get started:
 7. Stop the application:
 
         > re-stop
-
-8. Learn more at http://www.spray.io/
 
 9. Start hacking on `src/main/scala/com/example/MyService.scala`
